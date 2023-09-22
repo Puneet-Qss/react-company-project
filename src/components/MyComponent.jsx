@@ -17,7 +17,7 @@ const MyComponent = () => {
     const map = L.map(mapElement.current, {
       dragging: true,
     }).setView([42.2808, -83.743], 13);
-    
+
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution: "© OpenStreetMap",

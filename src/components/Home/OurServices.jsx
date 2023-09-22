@@ -5,7 +5,7 @@ import mobile from "../../assets/mobile.png";
 
 function OurServices() {
   return (
-    <div className="our-services" id="services" style={{ marginTop: "4%" }}>
+    <div className="our-services" id="services">
       <h2 style={{ textAlign: "center" }}>Our Services</h2>
       <br />
       <div className="card-container">
@@ -41,48 +41,6 @@ function OurServices() {
           </div>
         </div>
 
-        <div className="card">
-          <div className="card-item">
-            <div className="image" style={{ display: "flex", gap: "50px" }}>
-              <img src={mobile} alt="" height={"100px"} width={"100px"} />
-              <h4>Mobile Development</h4>
-              <br />
-            </div>
-            <p>
-              The content that we see on our cellphones and smart devices. While
-              making websites, businesses should ensure that users get an
-              exclusive mobile-based experience with proper content alignment.
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-item">
-            <div className="image" style={{ display: "flex", gap: "50px" }}>
-              <img src={mobile} alt="" height={"100px"} width={"100px"} />
-              <h4>Mobile Development</h4>
-              <br />
-            </div>
-            <p>
-              The content that we see on our cellphones and smart devices. While
-              making websites, businesses should ensure that users get an
-              exclusive mobile-based experience with proper content alignment.
-            </p>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-item">
-            <div className="image" style={{ display: "flex", gap: "50px" }}>
-              <img src={mobile} alt="" height={"100px"} width={"100px"} />
-              <h4>Mobile Development</h4>
-              <br />
-            </div>
-            <p>
-              The content that we see on our cellphones and smart devices. While
-              making websites, businesses should ensure that users get an
-              exclusive mobile-based experience with proper content alignment.
-            </p>
-          </div>
-        </div>
         <div className="card">
           <div className="card-item">
             <div className="image" style={{ display: "flex", gap: "50px" }}>

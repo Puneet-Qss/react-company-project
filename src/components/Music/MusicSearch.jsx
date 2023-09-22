@@ -55,7 +55,7 @@ function MusicSearch() {
       >
         <input
           type="text"
-          className="form-control py-2"
+          className="form-control "
           placeholder="enter artist name, song name, album name"
           aria-label="Search query"
           aria-describedby="basic-addon2"
@@ -67,7 +67,7 @@ function MusicSearch() {
           <span
             className="input-group-text"
             id="basic-addon2"
-            style={{ cursor: "pointer", padding:"10px" }}
+            style={{ cursor: "pointer" }}
             onClick={searchHandler}
           >
             <img src={search} alt="" height={"20px"} width={"20px"} />

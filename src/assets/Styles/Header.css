@@ -21,10 +21,6 @@ header {
   cursor: pointer;
   border: 1px solid #eee;
   transform: translateY(3px);
-  border-bottom: 1px solid lightcoral;
-  border-bottom-width: 14x;
-  border-radius: 5px;
-  z-index:2;
 }
 
 .header-list {
