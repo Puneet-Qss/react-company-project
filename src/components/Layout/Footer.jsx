@@ -1,9 +1,12 @@
 import React from "react";
-import facebook from "../assets/facebook.png";
-import telegram from "../assets/telegram.png";
-import twitter from "../assets/twitter.png";
-import github from "../assets/github-mark.png";
-import "../assets/Styles/Footer.css";
+import facebook from "../../assets/facebook.png";
+import telegram from "../../assets/telegram.png";
+import twitter from "../../assets/twitter.png";
+import github from "../../assets/github-mark.png";
+
+
+import '../../assets/Styles/Footer.css';
+
 function Footer() {
   return (
     <>

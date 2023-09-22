@@ -1,0 +1,21 @@
+
+.card-container {
+    padding: 70px;
+  }
+  
+  .card {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.25s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .album img {
+    border-radius: 4px;
+    height: 140px;
+  }
+  
+  

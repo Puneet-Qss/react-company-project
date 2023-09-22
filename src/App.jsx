@@ -1,19 +1,20 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+
 import Home from "./components/Home/Home";
 import MyComponent from "./components/MyComponent";
-import './index.css';
-
+import "./index.css";
+import Header from "../src/components/Layout/Header";
+import Footer from "./components/Layout/Footer";
 
 function App() {
   return (
     <>
       <Header />
+
       <Home />
-     
-        <MyComponent />
-    
+      <br />
+      <MyComponent />
+      <br />
       <Footer />
     </>
   );

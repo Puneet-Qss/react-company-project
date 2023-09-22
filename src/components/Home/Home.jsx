@@ -1,17 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../assets/Styles/home.css";
-import OurServices from './OurServices';
-import Search from "./Search";
-import Card from "./Card";
+import OurServices from "./OurServices";
+import MusicSearch from "../Music/MusicSearch";
 
 function Home() {
-  const [searchResults, setSearchResults] = useState([]); 
-
   return (
     <div className="home-container">
-      <Search onSearchResults={(results) => setSearchResults(results)} />
-      <br />
-      <Card results={searchResults} />
+      <MusicSearch />
       <br />
       <OurServices />
     </div>
